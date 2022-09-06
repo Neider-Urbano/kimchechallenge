@@ -13,7 +13,8 @@ Proyecto challengue  para kimche.
 
 ## Deploy
 - Vercel
-- Link: https://kimchechallenge-rose.vercel.app/home
+- Link: https://kimchechallenge-rose.vercel.app/
+
 
 
 ## Screen Shot
