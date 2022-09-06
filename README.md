@@ -13,7 +13,7 @@ Proyecto challengue  para kimche.
 
 ## Deploy
 - Vercel
-- Link: https://bolivarianosas.vercel.app/
+- Link: https://kimchechallenge-rose.vercel.app/
 
 
 ## Screen Shot
