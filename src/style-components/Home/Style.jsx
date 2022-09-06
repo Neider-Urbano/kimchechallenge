@@ -17,6 +17,7 @@ export const Div_group=styled.div`
 export const Titulo_group=styled.p`
     color: #fff;
     font-size: 13pt;
+    font-family: 'Jost', sans-serif;
 `
 export const ButtonHome=styled.button`
     color: #fff;
@@ -31,4 +32,12 @@ export const ButtonHome=styled.button`
     padding: 7.5px 15px;
     margin-left: 10px;
     margin-right:10px;
+`
+
+export const TitleData=styled.div`
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Jost', sans-serif;
+    margin-left: 20px;
+    font-size: 13pt;
 `
