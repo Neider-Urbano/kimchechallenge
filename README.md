@@ -1,5 +1,5 @@
 <div>
-    <img style="width:200px" src="https://github.com/Neider-Urbano/ada-school-bolivariano/blob/main/src/assets/images/icono.png" alt="logo"/>
+    <img style="width:200px" src="https://github.com/Neider-Urbano/kimchechallenge/blob/main/public/icono.png" alt="logo"/>
 </div>
 
 
@@ -19,10 +19,7 @@ Proyecto challengue  para kimche.
 ## Screen Shot
 
 <div>
-    <img style="width:270px" src="https://github.com/Neider-Urbano/ada-school-bolivariano/blob/main/src/assets/images/screenshot6.png" alt="screenshot0"/>
-    <img style="width:270px" src="https://github.com/Neider-Urbano/ada-school-bolivariano/blob/main/src/assets/images/screenshot5.png" alt="screenshot1"/>
-    <img style="width:270px" src="https://github.com/Neider-Urbano/ada-school-bolivariano/blob/main/src/assets/images/screenshot4.png" alt="screenshot2"/>
-    <img style="width:270px" src="https://github.com/Neider-Urbano/ada-school-bolivariano/blob/main/src/assets/images/screenshot3.png" alt="screenshot3"/>
-    <img style="width:270px" src="https://github.com/Neider-Urbano/ada-school-bolivariano/blob/main/src/assets/images/screenshot2.png" alt="screenshot4"/>
-    <img style="width:270px" src="https://github.com/Neider-Urbano/ada-school-bolivariano/blob/main/src/assets/images/screenshot1.png" alt="screenshot5"/>
+    <img style="width:270px" src="https://github.com/Neider-Urbano/kimchechallenge/blob/main/src/assets/images/img2.png" alt="screenshot0"/>
+    <img style="width:270px" src="https://github.com/Neider-Urbano/kimchechallenge/blob/main/src/assets/images/img1.png" alt="screenshot1"/>
+    <img style="width:270px" src="https://github.com/Neider-Urbano/kimchechallenge/blob/main/src/assets/images/img3.png" alt="screenshot2"/>
 </div>
