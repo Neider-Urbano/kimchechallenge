@@ -1,15 +1,24 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import './index.css'
+import ReactDOM from 'react-dom/client';
+import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
+import * as serviceWorker from './reportWebVitals';
+import { BrowserRouter } from "react-router-dom";
+import App from "./App";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+const client = new ApolloClient({
+  cache: new InMemoryCache(),
+  uri: 'https://countries.trevorblades.com'
+});
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+root.render(
+  <ApolloProvider client={client}>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </ApolloProvider>
 );
-
 
 serviceWorker.unregister();
