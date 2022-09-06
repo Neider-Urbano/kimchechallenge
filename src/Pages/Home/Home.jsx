@@ -4,7 +4,7 @@ import Nav from "../../Components/Nav/Nav";
 import Cards from "../../Components/Cards/Cards";
 import Footer from "../../Components/Footer/Footer"
 import LIST_COUNTRIES from "./gql.js"
-import {ButtonHome, Div_group, PageHome, Titulo_group} from "../../style-components/Home/Style";
+import {ButtonHome, Div_group, PageHome, Titulo_group, TitleData} from "../../style-components/Home/Style";
 
 const Home = () => {
     const [searchValue, setSearchValue] = useState(null);
@@ -73,7 +73,7 @@ const Home = () => {
                   {searchValue!==null && <div>
                      {setContinent.map((data,id)=>{
                       return <div key={id+1}>
-                        <div>{data}</div>
+                        <TitleData>{data}</TitleData>
                         <div className="cards">
                           {
                             dataCountries[0].countries.map((country,key) => {
